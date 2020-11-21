@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="cordova-plugin-music"
+  version="1.0.7">
+  
+  <name>Cordova Music</name>
+  <description>A Cordova Plugin to handle Music on iOS</description>
+  <license>MIT</license>
+  <keywords>cordova, ios, music, library</keywords>
+
+  <asset src="www/CordovaMusic.js" target="js/CordovaMusic.js"/>
+
+  <js-module src="www/CordovaMusic.js" name="CordovaMusic">
+    <clobbers target="CordovaMusic"/>
+  </js-module>
+
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="CordovaMusic">
+        <param name="ios-package" value="CordovaMusic"/>
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/CordovaMusic.h" target-dir="CordovaMusic"/>
+    <source-file src="src/ios/CordovaMusic.m" target-dir="CordovaMusic"/>
+
+  </platform>
+</plugin>

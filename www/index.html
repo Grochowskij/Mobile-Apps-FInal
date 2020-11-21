@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Final Project</title>
+    </head>
+    <body>
+        <nav>
+            <div class = "scrollmenu">
+                <a href ="index.html">Home</a>
+                <a href="Aleria.html">Aleria</a>
+                <a href ="Derin.html">Derin</a>
+                <a href="OakOfAges.html">Oak of Ages</a>
+                <a href ="Resources.html">Resources</a>
+                <!--<br><br>
+                <button id = "play-btn">Play</button>
+                <button id = "pause-btn">Pause</button>
+                <button id ="inn">Inn</button>
+                <button id ="dungeon">Dungeon</button>
+                <button id ="battle">Battle</button>-->
+            </div>
+        </nav>
+        <div class="app">
+            
+            <div class ="content">
+                <div class="buttons">
+                <button id = "play-btn">PLAY</button>
+                <button id = "pause-btn">PAUSE</button>
+                <button id = "stop-btn">STOP</button>
+                <button id = "up-btn">VOLUME UP</button>
+                <button id = "down-btn">VOLUME DOWN</button>
+            </div>
+                <input type="radio" id="inn" name="music" value="inn">
+                <label for="inn">Inn</label><br>
+                <input type="radio" id="dungeon" name="music" value="dungeon">
+                <label for="dungeon">Dungeon</label><br>
+                <input type="radio" id="battle" name="music" value="battle">
+                <label for="battle">Battle</label><br><br>
+                <button id = "submit">Submit</button>
+                
+                <h1>Welcome to Theros</h1>
+                <p>Theros is a world created for the tabletop role-playing game Dungeons and Dragons by Justin Grochowski.</p>
+                <p>The world's lore is based in Greek mythology and the setting is similar to medieval times.</p>
+                <img src='img/Dungeons and Dragons.jpg' alt = "Dungeons and Dragons">
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

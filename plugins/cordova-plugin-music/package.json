@@ -1,0 +1,59 @@
+{
+  "_from": "cordova-plugin-music",
+  "_id": "cordova-plugin-music@1.0.7",
+  "_inBundle": false,
+  "_integrity": "sha1-PNDR4HED7n7uZVrrHIkE1CKk5rg=",
+  "_location": "/cordova-plugin-music",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-music",
+    "name": "cordova-plugin-music",
+    "escapedName": "cordova-plugin-music",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-music/-/cordova-plugin-music-1.0.7.tgz",
+  "_shasum": "3cd0d1e07103ee7eee655aeb1c8904d422a4e6b8",
+  "_spec": "cordova-plugin-music",
+  "_where": "C:\\Users\\Owner\\MobileApps\\FinalProject",
+  "author": {
+    "name": "Andrea Macchieraldo"
+  },
+  "bugs": {
+    "url": "https://github.com/macchie/cordova-plugin-music/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-music",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "A Cordova Plugin to handle Music on iOS",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.4.0"
+    }
+  ],
+  "homepage": "https://github.com/macchie/cordova-plugin-music#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-music",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macchie/cordova-plugin-music.git"
+  },
+  "version": "1.0.7"
+}
